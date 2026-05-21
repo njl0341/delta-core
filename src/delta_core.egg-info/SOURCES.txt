@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/delta_core/__init__.py
+src/delta_core/api.py
+src/delta_core/config.py
+src/delta_core/ingestion.py
+src/delta_core/models.py
+src/delta_core/reconciler.py
+src/delta_core.egg-info/PKG-INFO
+src/delta_core.egg-info/SOURCES.txt
+src/delta_core.egg-info/dependency_links.txt
+src/delta_core.egg-info/requires.txt
+src/delta_core.egg-info/top_level.txt
+tests/test_api.py
+tests/test_ingestion.py
+tests/test_models.py
+tests/test_reconciler.py

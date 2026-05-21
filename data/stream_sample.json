@@ -1,0 +1,42 @@
+[
+  {
+    "transactionId": "TXN-20240115-0001",
+    "accountToken": "TOK_A1B2C3D4E5F6",
+    "amount": "45.12",
+    "timestamp": "2024-01-15T09:01:32",
+    "sourceSystem": "KAFKA-STREAM",
+    "targetSystem": "CORE-BANKING"
+  },
+  {
+    "transactionId": "TXN-20240115-0002",
+    "accountToken": "TOK_B2C3D4E5F6A1",
+    "amount": "1200.00",
+    "timestamp": "2024-01-15T09:05:11",
+    "sourceSystem": "KAFKA-STREAM",
+    "targetSystem": "CORE-BANKING"
+  },
+  {
+    "transactionId": "TXN-20240115-0003",
+    "accountToken": "TOK_C3D4E5F6A1B2",
+    "amount": "88.50",
+    "timestamp": "2024-01-15T09:12:44",
+    "sourceSystem": "KAFKA-STREAM",
+    "targetSystem": "CORE-BANKING"
+  },
+  {
+    "transactionId": "TXN-20240115-0004",
+    "accountToken": "TOK_D4E5F6A1B2C3",
+    "amount": "320.50",
+    "timestamp": "2024-01-15T09:18:02",
+    "sourceSystem": "KAFKA-STREAM",
+    "targetSystem": "CORE-BANKING"
+  },
+  {
+    "transactionId": "TXN-20240115-0005",
+    "accountToken": "TOK_E5F6A1B2C3D4",
+    "amount": "15.00",
+    "timestamp": "2024-01-15T09:22:58",
+    "sourceSystem": "KAFKA-STREAM",
+    "targetSystem": "CORE-BANKING"
+  }
+]
