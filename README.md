@@ -107,6 +107,7 @@ A secondary record is a candidate for parity comparison only when all three fiel
 1. **Locate candidate** — search the primary ledger for a row where `transactionId`, `sourceSystem`, and `targetSystem` are all identical.
 2. **Evaluate parity** — no match → `MISSING_FROM_PRIMARY`; match → compare `amount` only.
 3. **Resolve** — perfect match → purge both rows (hard-delete). Amount delta → `AMOUNT_MISMATCH` + attach `auxiliaryMetadata` blob to the discrepancy record.
+4. **Strict Ingestion Idempotency:** Duplicate composite keys are caught at the API boundary, returning a `202` with duplicate details while leaving the existing ledger entry unchanged. This prevents duplicate overwrites and double-processing in the ingest path.
 
 ### Discrepancy Types
 
