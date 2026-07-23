@@ -163,7 +163,7 @@ class ReconcilerEngine:
         """
         Execute a full reconciliation pass over all ingested records.
 
-        Matching strategy and flow
+        Matching strategy
         -----------------
         1. Walk every secondary record; look up the primary ledger for a row
            whose composite key ``(transactionId, sourceSystem, targetSystem)``

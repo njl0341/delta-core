@@ -34,6 +34,16 @@ pipeline {
             }
         }
 
+        stage('Lint') {
+            steps {
+                sh '''
+                    set -eux
+                    . "$VENV_DIR/bin/activate"
+                    ruff check .
+                '''
+            }
+        }
+
         stage('Run Tests') {
             steps {
                 sh '''
